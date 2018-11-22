@@ -1,0 +1,32 @@
+{
+    "bot": {
+        "id": "360859616558579713",
+        "token": "MzYwODU5NjE2NTU4NTc5NzEz.DknGKA.fvPdLQzWh9EYjfJuD5YnGdo_b2c",
+        "tokenWebSpell": "NDY3MzM0MjE0Nzg3MDA2NDc1.DjUmnQ.E0K47bEXCmAQc-BiAU3gkdr3d18"
+    },
+
+    "sentry": "",
+
+    "webhooks": {
+        "status": {
+            "id": "",
+            "token": ""
+        },
+        "loader": {
+            "id": "",
+            "token": ""
+        },
+        "error": {
+            "id": "",
+            "token": ""
+        },
+        "misc": {
+            "id": "",
+            "token": ""
+        }
+    },
+
+    "API": {
+        "example": "token"
+    }
+}
