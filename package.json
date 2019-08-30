@@ -6,30 +6,29 @@
   "link": "https://github.com/AxonTeam/Ease",
   "license": "MIT",
   "dependencies": {
-    "axoncore": "git+https://github.com/khaazz/axoncore.git#dev",
+    "axoncore": "git+https://github.com/khaazz/axoncore.git#dev-2.0",
     "eris": "git+https://github.com/AxonTeam/eris.git#axoncore",
     "esm": "^3.2.25",
     "eventemitter3": "^4.0.0"
   },
   "devDependencies": {
-    "cloc": "^2.5.0",
+    "@axonteam/doc-gen": "git+https://github.com/AxonTeam/doc-gen.git",
+    "@axonteam/eslint-config": "^2.2.0",
     "eslint": "^6.0.1",
-    "jsdoc-to-markdown": "^5.0.0",
     "yarn": "^1.17.3"
   },
   "optionalDependencies": {
     "chalk": "^2.4.2",
     "mongoose": "^5.6.4",
-    "pm2": "^3.5.1",
-    "signale": "^1.4.0"
+    "pm2": "^3.5.1"
   },
   "main": "index.js",
   "scripts": {
     "lint": "eslint .",
     "test": "eslint src *.js",
+    "docgen": "node ./scripts/gendoc.js && cp README.md ./docs/README.md",
     "start": "node -r esm /src/index.js",
-    "pm2start": "node -r esm scripts/start.js",
-    "pm2logs": "pm2 logs --lines 100 Ease"
+    "pm2start": "node scripts/start.js"
   },
   "repository": {
     "type": "git",
