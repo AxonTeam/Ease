@@ -19,7 +19,7 @@
   },
   "optionalDependencies": {
     "chalk": "^2.4.2",
-    "mongoose": "^5.6.4",
+    "mongoose": "^5.7.5",
     "pm2": "^3.5.1"
   },
   "main": "index.js",
