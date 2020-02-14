@@ -15,7 +15,7 @@
     "@axonteam/doc-gen": "git+https://github.com/AxonTeam/doc-gen.git",
     "@axonteam/eslint-config": "^2.2.0",
     "eslint": "^6.0.1",
-    "yarn": "^1.17.3"
+    "yarn": "^1.22.0"
   },
   "optionalDependencies": {
     "chalk": "^2.4.2",
